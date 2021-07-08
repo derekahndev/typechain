@@ -4,5 +4,12 @@
   "description": "Learning Typescript by making a Blockchain with it",
   "main": "index.js",
   "repository": "https://github.com/derekahndev/typechain",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
 }
